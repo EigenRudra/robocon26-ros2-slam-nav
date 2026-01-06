@@ -1,0 +1,16 @@
+
+# ROS 2 Build Artifacts
+build/
+install/
+log/
+.colcon/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+
+
+
+
+
