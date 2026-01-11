@@ -16,6 +16,14 @@ This project implements a complete autonomous navigation system for a TurtleBot3
 * **Mapping:** SLAM Toolbox (Online Async)
 * **Robot:** TurtleBot3 Waffle
 
+## Demo
+![Gazebo](./images/1.png)
+![SLAM Mapping](./images/2.png)
+![Navigation](./images/3.png)
+
+### Simulation
+Click to play/download the simulation video
+[![Watch the robot](./images/1.png)](./images/Simulation.mp4)
 
 ## Installation
 ### 1. Set up the Workspace
@@ -101,8 +109,5 @@ If required, to drive the robot around the arena manually, run the following com
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-## Key Technical Fixes
-* **Inflation Radius Reduced:** Changed from default 0.55m to 0.35m to allow the robot to navigate narrow arena corridors without false collisions.
-* **Robot Radius:** Reduced to 0.15m to match the actual TurtleBot3 footprint.
-* **Triple Bridge:** Implemented static transforms to link odom -> base_footprint -> laser to resolve TF timeout errors.
+
    
