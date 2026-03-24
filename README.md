@@ -1,5 +1,6 @@
 # Robocon 2026: Autonomous Navigation Stack
 **Author:** Rudraneel Shee
+**NOTE: This is not the final repo. Will update soon.**
 
 ## Abstract
 This project implements a complete autonomous navigation system for a TurtleBot3 robot in **Robocon 2026** arena using **ROS 2 Jazzy**. It features a custom Gazebo simulation world, SLAM-based mapping and autonomous path planning using the **Nav2 stack** with the MPPI Controller.
