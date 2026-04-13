@@ -1,14 +1,13 @@
 # Robocon 2026: First ROS project
 **Author:** Rudraneel Shee
 
-**Objective:** Spawing bot in Gazebo, SLAM mapping of arena, autonomous navigation using Nav2
-
 **NOTE: This is not the final repo. Will update soon.**
 
 ## Abstract
 This project implements a complete autonomous navigation system for a TurtleBot3 robot in **Robocon 2026** arena using **ROS 2 Jazzy**. It features a custom Gazebo simulation world, SLAM-based mapping and autonomous path planning using the **Nav2 stack** with the MPPI Controller.
 
 ## Objectives
+This is my first project in the domain of robotics. The main objective is to learn the following the ROS2 tools and document them.
 * **Simulation:** Spawning TurtleBot3 in a custom Robocon Gazebo world
 * **SLAM:** Generating a high-quality occupancy grid map of the arena
 * **Navigation:** Configuring Nav2 for "Skinny" robot settings to navigate narrow passages
