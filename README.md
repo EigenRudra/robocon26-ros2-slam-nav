@@ -1,6 +1,8 @@
 # Robocon 2026: First ROS project
 **Author:** Rudraneel Shee
-**Objective:** Spawing bot in Gazebo, SLAM mapping of arena, autonomous navigation using Nav2 
+
+**Objective:** Spawing bot in Gazebo, SLAM mapping of arena, autonomous navigation using Nav2
+
 **NOTE: This is not the final repo. Will update soon.**
 
 ## Abstract
